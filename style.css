@@ -5,34 +5,80 @@
         padding: 20px;
     }
 
-        .midiabackground {
-      
-        }
+    ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+    .midiacontainer {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .video-lado {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .alunos {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 9px;
+        border-radius: 20px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .alunos-container {
+        display: flex;
+        align-items: center;
+        
+        
+    }
 
         .footer { 
             background-color: #89bcff; 
             padding: 10px 40px; width: 100%; 
-            margin-top: auto;
+            margin-top: 10px;
+
+            
         }
         .footer-wraper { 
             display: flex; 
-            justify-content: space-between; 
+            justify-content: center; 
             align-items: center; 
             max-width: 1200px; 
             margin: 0 auto; 
+            padding-left: 100px;
             color: #fff; 
         }
-        .footer-social {
-             display: flex; 
-             gap: 15px; 
-             align-items: center;
-        }
-        .footer-social a { 
-            color: white; 
-            font-size: 1.4em; 
-        }
+        
+    footer img {
+        width: 40px;
+        height: 40px;
+        padding-right: 200px;
+    }
 
-    @media (max-width: 768px) {
-            .content { grid-template-columns: 1fr; }
-            img.banner { width: 80%; }
-        }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer a {
+        margin: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    footer p {
+        margin-top: 2px;
+        padding-right: 200px;
+
+    }
