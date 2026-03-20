@@ -1,0 +1,38 @@
+    body {
+        background-color: #76abfc;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+        .midiabackground {
+      
+        }
+
+        .footer { 
+            background-color: #89bcff; 
+            padding: 10px 40px; width: 100%; 
+            margin-top: auto;
+        }
+        .footer-wraper { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            color: #fff; 
+        }
+        .footer-social {
+             display: flex; 
+             gap: 15px; 
+             align-items: center;
+        }
+        .footer-social a { 
+            color: white; 
+            font-size: 1.4em; 
+        }
+
+    @media (max-width: 768px) {
+            .content { grid-template-columns: 1fr; }
+            img.banner { width: 80%; }
+        }
