@@ -82,3 +82,50 @@
         padding-right: 200px;
 
     }
+
+
+        .container {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .icone {
+        width: 80px;
+        height: 30px;
+        margin: 10px;
+        background-image: url('./clock.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: anima linear infinite;
+        animation-duration: calc(300s /var(--i));
+
+    }
+
+    .icone2 {
+        width: 80px;
+        height: 30px;
+        margin: 10px;
+        background-image: url('./journal-text.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: anima linear infinite;
+        animation-duration: calc(300s /var(--i));
+
+    }
+
+    @keyframes anima {
+        0% { 
+            transform: translateY(100vh) scale(0) rotate(0deg);
+        }
+        100% { 
+            transform: translateY(-10vh) scale(1) rotate(360deg);
+        }
+
+    }
+
+
+
